@@ -123,6 +123,7 @@ class ChatVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
                         }
                     }
                 }
+                        self.tableView.reloadData()
             }
         }
     }
